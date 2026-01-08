@@ -1,0 +1,16 @@
+{
+  "name": "streamly",
+  "version": "1.0.0",
+  "description": "a better version of YT with complex backend",
+  "keywords": [
+    "js",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "vikas pundir",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
