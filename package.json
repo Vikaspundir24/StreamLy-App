@@ -11,10 +11,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js" //changed for automatic server start and reload when files changes through nodemon
+    "dev": "nodemon src/index.js"
   },
   "devDependencies": {
-    "i": "^0.3.7",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
   }
 }
