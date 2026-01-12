@@ -33,7 +33,7 @@ const videoSchema = new Schema({
         default: true,
     },
     owner:{
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId, //owner of video who has published it
         ref: "User", 
     }
 },{timestamps:true})
