@@ -1,3 +1,3 @@
 #StreamLY
 
-A project with complex backend and better version of YT
+A project with complex production grade backend.
