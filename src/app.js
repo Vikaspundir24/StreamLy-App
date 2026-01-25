@@ -16,7 +16,10 @@ app.use(express.static("public")) //If someone requests a file, first check the 
 app.use(cookieParser()) //Used to parse cookies from incoming requests and make them accessible via req.cookies.
 
 
-//ROUTES IMPORT 
+//ROUTES IMPORT ]]
+
+
+
 
 import userRouter from "./routes/user.routes.js"
 
