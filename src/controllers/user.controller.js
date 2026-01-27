@@ -14,8 +14,11 @@ const registerUser = asyncHandler(async (req,res) => {
     // return res
 
     const {fullName, email, username, password} = req.body
-    console.log("email:", email)
+    console.log("email:", email);
 
+    if(fullName === ""){
+        throw new Api
+    }
 })
 
 export {registerUser}
